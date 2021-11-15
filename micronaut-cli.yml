@@ -3,4 +3,4 @@ defaultPackage: com.github.hugovallada
 testFramework: junit
 sourceLanguage: kotlin
 buildTool: gradle_kotlin
-features: [annotation-api, app-name, gradle, http-client, junit, kotlin, kotlin-application, kotlin-build, logback, micronaut-build, netty-server, openapi, readme, shade, yaml]
+features: [ annotation-api, app-name, gradle, http-client, junit, kotlin, kotlin-application, kotlin-build, logback, micronaut-build, netty-server, openapi, readme, shade, yaml ]

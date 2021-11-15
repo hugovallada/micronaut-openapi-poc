@@ -1,2 +1,1 @@
-
-rootProject.name="openapi-poc"
+rootProject.name = "openapi-poc"

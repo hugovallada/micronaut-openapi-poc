@@ -9,7 +9,7 @@ plugins {
 version = "0.1"
 group = "com.github.hugovallada"
 
-val kotlinVersion=project.properties.get("kotlinVersion")
+val kotlinVersion = project.properties.get("kotlinVersion")
 repositories {
     mavenCentral()
 }
