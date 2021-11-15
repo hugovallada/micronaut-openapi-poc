@@ -61,3 +61,9 @@ tasks {
     }
 
 }
+
+kapt {
+    arguments {
+        arg("micronaut.openapi.views.spec", "swagger-ui.enabled=true,swagger-ui.theme=material")
+    }
+}
