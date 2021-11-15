@@ -10,6 +10,6 @@ data class PokemonRequest(
     val type: String,
     @get:Schema(required = true, maxLength = 30, description = "The name of the pokemon")
     val name: String,
-    @Schema
+    @get:Schema(required = true)
     val powers: Power
 )
