@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: openapiPoc
+  # liberar acesso do yaml gerado via url
+  router:
+    static-resource:
+      swagger:
+        path: classpath:META-INF/swagger
+        mapping: /swagger/**
